@@ -19,6 +19,6 @@ public class HelloController {
 
     public void change(){
         System.out.println("this is branch change info.");
-        System.out.println("merge");
+        System.out.println("merge complete...");
     }
 }
