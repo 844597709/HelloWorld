@@ -1,10 +1,19 @@
 package com.haixue.zd.controller;
 
+import com.haixue.zd.model.User;
+
 /**
  * Created by zengdan on 2017/3/23.
  */
 public class HelloController {
     public static void main(String[] args) {
         System.out.println("this is HelloController");
+    }
+
+    public void getUserInfo(){
+        User user = new User();
+        user.setUserName("zengdan");
+        user.setUserAge(22);
+        System.out.println(user);
     }
 }
