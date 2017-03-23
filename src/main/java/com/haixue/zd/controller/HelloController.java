@@ -16,4 +16,8 @@ public class HelloController {
         user.setUserAge(22);
         System.out.println(user);
     }
+
+    public void change(){
+        System.out.println("this is branch change info.");
+    }
 }
